@@ -7,15 +7,15 @@
     "start:dev": "tsx --env-file=.env src/server.ts",
     "start:watch": "tsx watch --env-file=.env src/server.ts",
     "dist": "tsup src",
-    "start:dist": "npm run dist && --env-file=.env node/server.js"
+    "start:dist": "npm run dist && node dist/server.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/evelynnnie/podcast-manager.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Daiane Araújo",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/evelynnnie/podcast-manager/issues"
   },
